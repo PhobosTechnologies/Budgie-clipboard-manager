@@ -2,8 +2,6 @@
 Loader=python3
 Module=clipboard_manager
 Name=BudgieClipboardManager
-Description=Simple tool to manage the clipboard
+Description=Simple Clipboard Manager
 Authors=zhboner
-Copyright=© 2017-2018 Ubuntu Budgie Developers
-Website=https://ubuntubudgie.org
-Icon=clipboard
+Icon=clipboard_manager
