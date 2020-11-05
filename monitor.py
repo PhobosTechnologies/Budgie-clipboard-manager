@@ -5,7 +5,7 @@ from gi.repository import Gtk, Gdk, GLib, Budgie
 class ListBoxRowWithData(Gtk.ListBoxRow):
     def __init__(self, data, callback):
         super(Gtk.ListBoxRow, self).__init__()
-        
+
         button = Gtk.Button(relief=Gtk.ReliefStyle.NONE)
         button.connect("clicked", callback)
         self.label = Gtk.Label(data, halign=Gtk.Align.START, width_chars=5, max_width_chars=5)
@@ -34,7 +34,7 @@ class Monitor(Budgie.Applet):
     def __update_history(self, item):
 
         self.history.insert(0, item)
-        
+
         if len(self.history) > self.HISTORY_LENGTH:
             out = self.history.pop()
             out = None
@@ -44,7 +44,7 @@ class Monitor(Budgie.Applet):
 
         if len(self.history) < self.HISTORY_LENGTH and not self.row_activated_flag:
             self.__insert_row(item)
-        
+
         self.row_activated_flag = False
         self.__update_history(item)
         self.__update_ui(item)
@@ -68,11 +68,11 @@ class Monitor(Budgie.Applet):
         self.listbox = Gtk.ListBox()
         # self.listbox.set_selection_mode(Gtk.SelectionMode.SINGLE)
         # self.listbox.set_activate_on_single_click(True)
-        
+
         self.pop_win.add(self.listbox)
         self.pop_win.get_child().show_all()
 
-        
+
         self.show_all()
 
         # self.listbox.connect('row-activated', self.__on_row_activated)
@@ -89,7 +89,7 @@ class Monitor(Budgie.Applet):
         self.history.pop(idx)
         self.row_activated_flag = True
         self.clipboard.set_text(item, -1)
-        
+
         self.pop_win.hide()
 
     def __insert_row(self, item):
@@ -104,7 +104,7 @@ class Monitor(Budgie.Applet):
                 out = item[:30] + '...'
             else:
                 out = item
-            
+
             out = out.replace('\n', ' ')
             row.set_text(out)
         self.listbox.show_all()
@@ -113,4 +113,3 @@ class Monitor(Budgie.Applet):
         self.manager = manager
         self.manager.register_popover(self.icon_box, self.pop_win)
 
-        
