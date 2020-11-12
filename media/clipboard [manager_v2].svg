@@ -7,22 +7,14 @@
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
    xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="1236.3369"
    height="1239.8074"
    viewBox="0 0 327.11413 328.03238"
    version="1.1"
-   id="svg8"
-   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)"
-   sodipodi:docname="clipboard [inkscape-file].svg"
-   inkscape:export-filename="/home/dkm/PyCharmProjects/budgie_clipboard_manager/media/clipboard manager.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300">
+   id="svg8">
   <defs
      id="defs2">
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient3096">
       <stop
          style="stop-color:#ff1700;stop-opacity:1"
@@ -40,7 +32,6 @@
        height="43.382412"
        id="rect3077" />
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient3027">
       <stop
          style="stop-color:#d0e2ff;stop-opacity:1"
@@ -52,7 +43,6 @@
          id="stop3025" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient2956">
       <stop
          style="stop-color:#e7d8ff;stop-opacity:1"
@@ -80,7 +70,6 @@
          id="stop2940" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        id="linearGradient1004">
       <stop
          style="stop-color:#002fff;stop-opacity:1"
@@ -96,7 +85,6 @@
          id="stop1002" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient2956"
        id="linearGradient858"
        x1="23.574341"
@@ -106,7 +94,6 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.2272667,0,0,1.2272667,-35.645366,-35.669655)" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient1004"
        id="linearGradient866"
        x1="195.60518"
@@ -116,7 +103,6 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.2272667,0,0,1.2272667,-35.645366,-35.669655)" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3027"
        id="linearGradient3029"
        x1="135.73862"
@@ -126,7 +112,6 @@
        gradientUnits="userSpaceOnUse"
        gradientTransform="matrix(1.2272667,0,0,1.2272667,-35.645366,-35.669655)" />
     <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient3096"
        id="linearGradient3090"
        x1="221.03159"
@@ -135,30 +120,6 @@
        y2="251.52281"
        gradientUnits="userSpaceOnUse" />
   </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#00ff10"
-     borderopacity="1"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="0.50125"
-     inkscape:cx="683.22708"
-     inkscape:cy="690.44353"
-     inkscape:document-units="mm"
-     inkscape:current-layer="layer1"
-     inkscape:document-rotation="0"
-     showgrid="false"
-     units="px"
-     borderlayer="true"
-     inkscape:showpageshadow="false"
-     showguides="true"
-     inkscape:guide-bbox="true"
-     lock-margins="true"
-     fit-margin-top="0"
-     fit-margin-left="0"
-     fit-margin-right="0"
-     fit-margin-bottom="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -172,8 +133,6 @@
     </rdf:RDF>
   </metadata>
   <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
      id="layer1"
      transform="translate(6.7133644,7.0655909)">
     <path
@@ -218,8 +177,7 @@
     <path
        id="rect838-6-1-8"
        style="fill:url(#linearGradient866);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.697;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 277.85876,189.10968 h 40.02292 v 129.31708 l -93.24424,0.19151 h -2.08889 v -81.65298 z"
-       sodipodi:nodetypes="ccccccc" />
+       d="m 277.85876,189.10968 h 40.02292 v 129.31708 l -93.24424,0.19151 h -2.08889 v -81.65298 z" />
     <rect
        style="fill:url(#linearGradient3029);fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:4.87072;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect838-0-3"
@@ -229,9 +187,7 @@
        y="159.86964" />
   </g>
   <g
-     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="lambda"
      transform="translate(6.7133644,7.0655909)">
     <g
        aria-label="λ"
@@ -241,8 +197,7 @@
       <path
          d="m 235.33596,264.76759 c -2.3209,-0.12016 -2.76184,-2.0892 -3.429,-4.4196 0,0 -1.56099,-5.30879 -2.45737,-8.83399 -0.006,-0.0246 -0.0714,-0.025 -0.0762,0 -0.78424,4.07336 -4.41441,12.63749 -5.1033,12.7041 h -3.2385 c 2.59762,-4.19858 8.68946,-11.40399 4.87178,-21.34984 -1.05055,-2.52495 -3.63736,-1.55769 -3.57638,0.35674 h -0.7239 c -0.22824,-2.30936 0.6294,-4.74301 2.8956,-4.6863 0.83735,0.0443 1.5244,0.50844 2.0193,1.1049 4.14341,5.63969 4.2087,21.84104 8.89417,22.26649 1.1766,-0.11163 1.65769,-1.22554 1.7145,-2.2098 h 0.762 c 0.0736,2.22124 -0.66472,5.01193 -2.5527,5.0673 z"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:38.1px;font-family:FreeSerif;-inkscape-font-specification:'FreeSerif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:url(#linearGradient3090);fill-opacity:1;stroke:#000000;stroke-width:0.346808;stroke-linecap:square;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:normal"
-         id="path3081"
-         sodipodi:nodetypes="ccssccccccccccc" />
+         id="path3081" />
     </g>
   </g>
 </svg>

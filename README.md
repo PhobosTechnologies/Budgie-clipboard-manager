@@ -1,14 +1,10 @@
-# BUDGIE CLIPBOARD MANAGER
+# Budgie Clipboard Manager
 
-## ¡¡¡IMPORTANT NOTICE!!!
+![Clipboard Manager](media/clipboard%20manager.png)
 
-This project was forked from zhboner's repository which can be found here:
+Forked from: [Budgie Clipboard Manager](https://github.com/zhboner/Budgie-clipboard-manager)
 
-[Budgie Clipboard Manager](https://github.com/zhboner/Budgie-clipboard-manager)
-
-Here is the public Trello board I'm using for the clipboard's development:
-
-[Public Trello Board](https://trello.com/b/nj4gAIrg/budgie-clipboard-manager)
+Public Trello: [Public Trello Board](https://trello.com/b/nj4gAIrg/budgie-clipboard-manager)
 
 ```
 https://github.com/zhboner/Budgie-clipboard-manager
